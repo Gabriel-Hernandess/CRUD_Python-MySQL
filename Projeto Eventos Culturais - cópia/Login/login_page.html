@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="login_style.css">
+        <title>Login</title>
+    </head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Contato</a>
+        <a href="#">Sobre</a>
+    </header>
+
+    <form action="http://localhost:5000/login_db" method="post">
+        <div class="entry_area">
+            <p class="login_txt">Login</p>
+    
+            <div class="form"> 
+                <label for="email">Email</label>
+                <input class="form" type="text" placeholder="Email" id="email" name="email_login"/>
+                
+                <label for="senha">Senha</label>
+                <input class="form" type="password" placeholder="Senha" id="senha" name="senha_login"/>
+    
+                <a class="pass_reset" href="#">Esqueci senha</a>
+
+                <a class="register_btn" href="../Cadastro/register_page.html">Nao possui uma conta? Clique aqui para se registrar!</a>
+            </div>
+    
+            <button type="submit" class="send">Entrar</button>
+        </div>
+    </form>
+
+</body>
+</html>

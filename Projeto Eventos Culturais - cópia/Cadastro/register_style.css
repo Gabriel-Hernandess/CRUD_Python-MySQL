@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url('../imagens/mascara.jpg');
+    background-size: 112vw;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: swap;
+    background-color: black;
+}
+
+header{
+    width: 100vw;
+    height: 30px;
+    border: solid 3px black;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
+    padding: 10px;
+}
+
+header > a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    margin-right: 3vw;
+}
+
+
+
+.entry_area{
+    margin-left: 8vw;
+    color: aliceblue;
+    text-align: center;
+    border: solid 7px rgb(228, 181, 72);
+    background-color: rgb(4, 4, 4, 0.6);
+    width: 500px;
+    height: 550px;
+    max-height: 600px;
+    box-shadow: 4px 3px black;
+    border-radius: 10px;
+    margin-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: swap;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+form > h1{
+    font-size: 100px;
+}
+
+.form > label{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.form > a.login_btn{
+    color: white;
+    margin-top: 8vw;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form > a:hover{
+    cursor:pointer;
+    color: rgb(194, 123, 23);
+}
+
+
+.register_txt{
+    font-size: 70px;
+}
+
+.send{
+    width: 120px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 5px black;
+    margin: 0 auto;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: Righteous;
+    display: swap;
+    margin-top: 23vw;
+}
+
+.send:hover{
+    color: rgba(209, 99, 26, 0.495);
+    cursor: pointer;
+}

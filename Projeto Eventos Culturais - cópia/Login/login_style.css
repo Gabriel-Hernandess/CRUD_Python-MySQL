@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(../imagens/teatro.jpg);
+    background-size: 100vw;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: swap;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 100vw;
+    height: 30px;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: black;
+    text-align: right;
+    padding: 10px;
+}
+
+header > a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    margin-right: 3vw;
+}
+
+
+
+.entry_area{
+    margin: 0 auto;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    border: solid 7px rgb(64, 3, 3);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 470px;
+    height: 400px;
+    max-height: 500px;
+    box-shadow: 5px 5px black;
+    border-radius: 10px;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: swap;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 160px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.form > label{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.form > a{
+    color: white;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.form > a:hover{
+    cursor:pointer;
+    color: rgb(172, 42, 42);
+}
+
+
+.login_txt{
+    font-size: 70px;
+}
+
+.send{
+    width: 120px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 5px black;
+    margin-top: 40px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: Righteous;
+    display: swap;
+}
+
+.pass_reset{
+    top: 10px;
+    position: relative;
+}
+
+.send:hover{
+    color: rgba(198, 30, 30, 0.495);
+    cursor: pointer;
+}
+
+.register_btn{
+    top: 2.1cm;
+    position: relative;
+    margin: auto;
+}
+
+.register_btn:hover{
+    color: rgb(147, 47, 47);
+}

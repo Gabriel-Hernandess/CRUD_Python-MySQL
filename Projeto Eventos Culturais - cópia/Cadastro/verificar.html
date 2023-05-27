@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Verificar E-mail</title>
+	<link rel="stylesheet" type="text/css" href="verificar_style.css">
+</head>
+
+<body>
+
+	<div class="area">
+		<h1>Verificar E-mail</h1>
+
+		<div class="entrada">
+			<form method="post" action="http://localhost:5000/verificar">
+				<label class="txt" for="codigo">Digite o código de verificação enviado para o seu e-mail: </label>
+				
+				<input class="form" type="text" id="codigo" name="code">
+				
+				<button class="enviar" type="submit" value="verificar_Email">Verificar</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

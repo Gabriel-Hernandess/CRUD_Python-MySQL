@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="register_style.css">
+        <title>Cadastro</title>
+    </head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Contato</a>
+        <a href="#">Sobre</a>
+    </header>
+
+ <form action="http://localhost:5000/register_db" method="post">
+        <div class="entry_area">
+            <h1 class="register_txt">Cadastro</h1>
+    
+            <div class="form"> 
+                <label for="nome">Nome</label>
+                <input class="form" type="text" placeholder="Nome" id="nome" name="nome_register"/>
+                
+                <label for="nome">Email</label>
+                <input class="form" type="text" placeholder="Email" id="email" name="email_register"/>
+
+                <label for="senha">Senha</label>
+                <input class="form" type="password" placeholder="Senha" id="senha" name="senha_register"/>
+
+                <label for="cpf">CPF</label>
+                <input class="form" type="text" placeholder="CPF" id="cpf" name="cpf_register"/>
+                
+                <a class="login_btn" href="../Login/login_page.html">Ja possui uma conta? Clique aqui para entrar!</a> 
+            </div>      
+
+            <button type="submit" class="send">Registrar</button>
+        </div>
+    </form>
+    
+    
+
+</body>
+</html>
